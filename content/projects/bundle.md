@@ -1,0 +1,5 @@
+---
+title: Bundle
+---
+
+{{< project bundle >}}

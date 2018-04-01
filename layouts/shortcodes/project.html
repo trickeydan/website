@@ -1,0 +1,15 @@
+<a href="/projects">Back to Projects</a>
+{{ range .Site.Data.projects.projects }}
+{{ $me := $.Get 0 }}
+  {{ with .project }}
+    {{ if eq .slug $me}}
+      <p>Status: {{ .status }}</p>
+      <p>Type: {{ .type }}</p>
+      <p>
+        {{ if .github }}<a href="https://github.com/{{ .github }}">GitHub</a>{{ end }}&nbsp;
+        {{ if .url }}<a href="{{ .url }}">Website</a>{{ end }}
+      </p>
+      <p>{{ .desc }}</p>
+    {{ end }}
+  {{ end }}
+{{ end }}
