@@ -19,10 +19,6 @@ title = "Dan Trickey"
 
 # Menu links
 [[menu.main]]
-    name = "Home"
-    weight = 1
-    url  = "/"
-[[menu.main]]
     name = "About"
     weight = 2
     url = "/about/"
