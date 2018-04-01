@@ -1,0 +1,9 @@
+{{ range sort .Site.Data.projects.projects "project.name"}}
+  {{ with .project }}
+    <h3>{{ .name }}</h3>
+    <p> Status: {{ .status }}</p>
+    <p> Type: {{ .type }}</p>
+    {{ if .github }}<p><a href="https://github.com/{{ .github }}">GitHub</a></p>{{ end }}
+    {{ if .url }}<p><a href="{{ .url }}">Website</a></p>{{ end }}
+  {{ end}}
+{{ end }}
