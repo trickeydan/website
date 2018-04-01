@@ -1,6 +1,8 @@
 {{ range .Site.Data.projects.projects }}
+{{ $me := $.Get 0 }}
   {{ with .project }}
-    {{ if eq .slug "brumball" }}
+
+    {{ if eq .slug $me}}
       {{ .desc }}
     {{ end }}
   {{ end }}

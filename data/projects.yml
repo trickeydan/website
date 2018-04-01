@@ -25,6 +25,7 @@ projects:
       status: Completed
       type: Personal
       github: trickeydan/Pace
+      desc: A Competition Management System
   - project:
       name: ecs.pizza
       slug: ecspizza
