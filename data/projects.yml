@@ -1,49 +1,62 @@
 projects:
   - project:
       name: Brumball
+      slug: brumball
       status: Completed
       type: Hackathon
       github: dysfunctionals/brumball
+      desc: A 6 player massively multiplayer pong game.
   - project:
       name: Bundle
+      slug: bundle
       status: Completed
       type: Hackathon
       github: trickeydan/bundle-server
+      desc: A music voting system for nightclubs.
   - project:
       name: Project Hermes
+      slug: hermes
       status: Completed
       type: Personal
+      desc: A crowdfunded weather balloon launch.
   - project:
       name: PACE
+      slug: pace
       status: Completed
       type: Personal
       github: trickeydan/Pace
   - project:
       name: ecs.pizza
+      slug: ecspizza
       status: Completed
       type: Hackathon
       github: dysfunctionals/ecspizza-flask
   - project:
       name: Questioneer
+      slug: questioneer
       status: Ongoing
       type: Business
       url: https://questioneer.co.uk
   - project:
       name: SourceBots
+      slug: sourcebots
       status: Ongoing
       type: Society
       github: sourcebots
       url: https://sourcebots.co.uk
   - project:
       name: i3-yml
+      slug: i3-yml
       status: Planned
       type: Personal
       github: trickeydan/i3-yml
   - project:
       name: SimpleLDAP
+      slug: sldap
       status: Early Stages
       type: Personal
   - project:
       name: Weather Station
+      slug: wstation
       status: Ongoing
       type: Personal

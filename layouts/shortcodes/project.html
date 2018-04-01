@@ -1,0 +1,7 @@
+{{ range .Site.Data.projects.projects }}
+  {{ with .project }}
+    {{ if eq .slug "brumball" }}
+      {{ .desc }}
+    {{ end }}
+  {{ end }}
+{{ end }}
