@@ -3,7 +3,7 @@ title = "Dan Trickey"
 
 [params] # theme parameters
     author = "Dan Trickey" # author's name
-    info = "I write code." # author's job title or info
+    info = "I write code" # author's job title or info
     description = "Dan's personal website" # site description
     keywords = "blog,developer,personal" # site keywords
 
