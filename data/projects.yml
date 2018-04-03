@@ -51,13 +51,3 @@ projects:
       status: Planned
       type: Personal
       github: trickeydan/i3-yml
-  - project:
-      name: SimpleLDAP
-      slug: sldap
-      status: Early Stages
-      type: Personal
-  - project:
-      name: Weather Station
-      slug: wstation
-      status: Ongoing
-      type: Personal
