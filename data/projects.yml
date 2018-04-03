@@ -5,33 +5,28 @@ projects:
       status: Completed
       type: Hackathon
       github: dysfunctionals/brumball
-      desc: A 6 player massively multiplayer pong game.
   - project:
       name: Bundle
       slug: bundle
       status: Completed
       type: Hackathon
       github: trickeydan/bundle-server
-      desc: A music voting system for nightclubs.
   - project:
       name: Project Hermes
       slug: hermes
       status: Completed
       type: Personal
-      desc: A crowdfunded weather balloon launch.
   - project:
       name: PACE
       slug: pace
       status: Completed
       type: Personal
       github: trickeydan/Pace
-      desc: A Competition Management System
   - project:
       name: ecs.pizza
       slug: ecspizza
       status: Completed
       type: Hackathon
-      github: dysfunctionals/ecspizza-flask
   - project:
       name: Questioneer
       slug: questioneer
