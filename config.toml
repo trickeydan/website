@@ -19,7 +19,7 @@ title = "Dan Trickey"
 
 # Menu links
 [[menu.main]]
-    name = "About"
+    name = "About Me"
     weight = 2
     url = "/about/"
 [[menu.main]]
