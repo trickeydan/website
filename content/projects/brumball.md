@@ -36,13 +36,13 @@ The display and client simply need to be hosted statically. The server needs to 
 ## Tweets
 We got tweeted!
 
-![Imgur](https://i.imgur.com/R1JLJls.png)
-
 [Tweeted By MLH](https://twitter.com/MLHacks/status/932231486836789248)
 
-![Imgur](https://i.imgur.com/nojYdDx.png)
+{{< tweet 932231486836789248 >}}
 
 [Tweeted By Capgemini](https://twitter.com/CapgeminiUKppl/status/932230984111706112)
+
+{{< tweet 932230984111706112 >}}
 
 ## Photos
 
