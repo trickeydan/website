@@ -30,3 +30,7 @@ title = "Dan Trickey"
     name = "Blog"
     weight = 4
     url  = "/posts/"
+[[menu.main]]
+    name = "Contact"
+    weight = 5
+    url  = "/contact/"
