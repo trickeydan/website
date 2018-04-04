@@ -16,6 +16,7 @@ projects:
       slug: hermes
       status: Completed
       type: Personal
+      url: http://hermes.lachin.com
   - project:
       name: PACE
       slug: pace
