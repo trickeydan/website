@@ -1,0 +1,7 @@
+{{ range .Site.Data.projects.projects }}
+  {{ with .project }}
+    {{ if not .hidden }}
+      <p><a href="/projects/{{ .slug }}">{{ .name }}</a></p>
+    {{ end }}
+  {{ end }}
+{{ end }}

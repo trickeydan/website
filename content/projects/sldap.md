@@ -1,5 +1,0 @@
----
-title: SimpleLDAP
----
-
-{{< project sldap >}}
