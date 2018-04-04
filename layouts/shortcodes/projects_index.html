@@ -1,5 +1,7 @@
 {{ range .Site.Data.projects.projects }}
   {{ with .project }}
-    <p><a href="/projects/{{ .slug }}">{{ .name }}</a></p>
+    {{ if not .hidden }}
+      <p><a href="/projects/{{ .slug }}">{{ .name }}</a></p>
+    {{ end }}
   {{ end }}
 {{ end }}

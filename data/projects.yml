@@ -44,6 +44,7 @@ projects:
   - project:
       name: i3-yml
       slug: i3-yml
+      hidden: true
       status: Planned
       type: Personal
       github: trickeydan/i3-yml
