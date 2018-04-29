@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/trickeydan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://trickey.io
+  * I am trickeydan (https://keybase.io/trickeydan) on keybase.
+  * I have a public key with fingerprint 6C58 CF1C DBC0 EE8F 6F70  E622 D523 6EF5 84F7 08EE
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010152f59ad2d3dbc6e9380b09438ad65ecbb7aee2afcf6b9993a2ccac756bc4fb420a",
+      "fingerprint": "6c58cf1cdbc0ee8f6f70e622d5236ef584f708ee",
+      "host": "keybase.io",
+      "key_id": "d5236ef584f708ee",
+      "kid": "010152f59ad2d3dbc6e9380b09438ad65ecbb7aee2afcf6b9993a2ccac756bc4fb420a",
+      "uid": "5d98cc542293402b3b0b5950b4dfe319",
+      "username": "trickeydan"
+    },
+    "service": {
+      "hostname": "trickey.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1524996055,
+  "expire_in": 157680000,
+  "prev": "0d2cd2ea7cf669283ea982f3b1cd240127331cedfbdfb391f46c7d34b782e4bb",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUntQFVUcvjwMueIAhahlPFYkNYK9+95b6KA54wMEivEBFe7ZPXtd4e5e9y4X
+CEEjHcT0DpPDoCWNGZKYhM0ojwjBHogxkGMgTgFBIwySDcrIbVKUdin/aKY/O3Nm
+zpxvvt93vu93fmXzfUxmr/x1WMNwm5/k1XkbmNJHKn4tQIAi5CPWAiQLzh4wW4BO
+LTNLEhArglpQC4mJJMsJmIALgKcgizMoQFkCZziBIiEPAM1BiHEiL1KAZVmcw3ie
+42mSAjwhAgJDOSQGESXZBlWHKsmaLkvxJMOLFl4XRCFkREqkUUhhmEBiOAVFkiF0
+gIFQL9ypOI0K3RzgnDBWUnRMv2TO2vsP/v/sO2dWjhRYhudJAsNYnEAxgAMUkCyJ
+AkIQIW5hDaITqjJnhzpbUyVetyhwMlIYg+i4S+Kh0Vojy785f+dxqIqm8Eq2ju/U
+NIfTatRp+Q6DmAtB5j8SmUCSBb2PeoULqk5JkRGrRWfymmRo6oEJlqVQkoxBYJ5D
+UmGmZDBImmJQfRnvQJfRHAHjBQxu52g9OsViDA45lsFEHOg/ghGoBaNx3MJDQQT6
+xlmLSFA8LeAEoBkMEgAgRqrdsqKLY7pRzqaLOiWbzGk5KkQKzaXeuK/Jy2x6PjTS
+l9pWUQu5hfcXvNFT+GT45ngbk2cy+wc9QdY8G/jQ7+7X291PR/UG18dF/YY8DrUf
+3tP0eNLBnOoSV3wQJO89cmL3+wNDv9BN5We3nhQjrWHs9YoHn0U+1Z7y1rEitin7
+PFXuGRtef/z7j+jJP4iI+gvbTsvxuzwjY+/Wh0dGyEGbwpUS8JBr6/O075icsQ+4
+J853BzeGqeqhiv5me/++qn2Vq4usbye5pnaEBOUnXy5M5L+4NvpVQFrGntbEd1pf
+zdjsaTvof99dW5277oraMfPyHLx3MnhL5zTLXBy70/JaYmu3tXS495psXeJ/clGS
+7UFhm5LUXC2FjdUmd9/Lzjl8wCoOP7o8Pm/KO6Qxb39SK3kzteNTr1Pp5w5W5nb7
+9vhMurMK/N7rHQm5XfzcD7HYxrOLs4eq6qdsK2CxNSF8oo4NXVVzerknDW5qaH8x
+OkIWV/k4zi1Ms/VtwLeYos9c//n1D1O+rJsXGDU/IUWpiU/9M+Dbls6ZwQHXkhd6
+bpnX1IGVWSXTLY1R0e7UI0svBqT7/9S2YFl/x9yjv5ecGB+NcK7v2ljm+1LT4tHi
+zzPuzK18VLn047iVW9+8GgjTBu99c7RK2l/d47ppO9AJL61dnnLh+DOeQ6WpNbu0
+kWNSgv/V1IlX1sbFW2KFvZfKbpRvqDtz5dbq2GW5di0voiG/uUXoo8e7Bt3fDfmM
+lDimwaLBomSuazr9blB0jD1t8w3zj5/8BQ==
+=ATVO
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/trickeydan
+
+==================================================================
