@@ -34,6 +34,7 @@ projects:
       status: Ongoing
       type: Business
       url: https://questioneer.co.uk
+      github: questioneerLTD
   - project:
       name: SourceBots
       slug: sourcebots
@@ -41,10 +42,3 @@ projects:
       type: Society
       github: sourcebots
       url: https://sourcebots.co.uk
-  - project:
-      name: i3-yml
-      slug: i3-yml
-      hidden: true
-      status: Planned
-      type: Personal
-      github: trickeydan/i3-yml
