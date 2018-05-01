@@ -1,0 +1,177 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C/DTD SVG 1.1//EN"
+        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+     baseProfile="full"
+     width="1000" height="1000"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style type="text/css">
+        <![CDATA[
+
+      .arena-wall {
+          fill: none;
+          stroke: #555;
+          stroke-width: .02;
+      }
+
+      .platform {
+          stroke: #555;
+          stroke-width: .02;
+          fill: #666;
+      }
+
+      .token {
+          stroke: black;
+          stroke-width: 0.01;
+      }
+
+      .robot {
+          fill: green;
+          stroke: black;
+          stroke-width: 0.02;
+      }
+
+      .line-follow-line {
+          stroke: #000;
+          stroke-width: 0.02;
+          fill: none;
+      }
+
+      .zone-0 {
+        fill:#ff84ef;
+      }
+
+      .zone-1 {
+        fill:#62ff5b;
+      }
+
+      .zone-2 {
+        fill:#ffa75b;
+      }
+
+      .zone-3 {
+        fill:#ffff5a;
+      }
+
+      .start-zone {
+          stroke: #333;
+          stroke-width: 0.02;
+          stroke-dasharray: 0.14142135, 0.14142135;
+          stroke-dashoffset: -50%;
+          fill: none;
+      }
+
+    ]]>
+    </style>
+    <!-- common patterns -->
+    <defs>
+        <g id="token-ordinary">
+            <rect width="0.11" height="0.11"
+                  x="-0.055" y="-0.055"
+                  class="token"/>
+        </g>
+        <g id="token-0">
+            <rect width="0.11" height="0.11"
+                  x="-0.055" y="-0.055"
+                  class="token zone-0"/>
+        </g>
+        <g id="token-1">
+            <rect width="0.11" height="0.11"
+                  x="-0.055" y="-0.055"
+                  class="token zone-1"/>
+        </g>
+        <g id="token-2">
+            <rect width="0.11" height="0.11"
+                  x="-0.055" y="-0.055"
+                  class="token zone-2"/>
+        </g>
+        <g id="token-3">
+            <rect width="0.11" height="0.11"
+                  x="-0.055" y="-0.055"
+                  class="token zone-3"/>
+        </g>
+        <g id="random-tokens">
+            <use xlink:href="#token-ordinary" x="0.25" y="0.25"/>
+            <use xlink:href="#token-ordinary" x="1.57" y="0.43"/>
+            <!--<use xlink:href="#token-ordinary" x="0.5" y="1.25"/>-->
+            <use xlink:href="#token-ordinary" x="0.2415" y="1.24"/>
+            <use xlink:href="#token-ordinary" x="1.74" y="1.38"/>
+            <use xlink:href="#token-ordinary" x="1" y="1" />
+            <!-- <use xlink:href="#token-ordinary" x="2.075" y="2.075" />-->
+        </g>
+        <g id="side-zone">
+            <rect width="0.5" height="0.5"
+                  x="0.25" y="0.25"
+                  transform="rotate(45 0.5 0.5)"
+                  class="robot"/>
+            <!-- boundary -->
+            <path class="start-zone"
+                  d="M 0 1 h 1 v -1"/>
+        </g>
+        <g id="centre-column" class="centre-column">
+            <rect width="0.3"
+                  height="0.3"
+                  class="platform"/>
+        </g>
+    </defs>
+    <!-- white background -->
+    <rect width="100%" height="100%" fill="white"/>
+    <!-- transform for arena-space coordinates -->
+    <g id="arena"
+       transform="translate(100 100) scale(100)">
+        <!-- zones -->
+        <use xlink:href="#side-zone"/>
+        <use xlink:href="#side-zone" transform="rotate(90 4 4)" class="zone-0"/>
+        <use xlink:href="#side-zone" transform="rotate(180 4 4)"/>
+        <use xlink:href="#side-zone" transform="rotate(270 4 4)"/>
+
+        <!-- scoring zones -->
+        <rect x="1" y="1" width="2.85" height="2.85" class="zone-0 line-follow-line"/>
+        <rect x="4.15" y="1" width="2.85" height="2.85" class="zone-1 line-follow-line"/>
+        <rect x="1" y="4.15" width="2.85" height="2.85" class="zone-2 line-follow-line"/>
+        <rect x="4.15" y="4.15" width="2.85" height="2.85" class="zone-3 line-follow-line"/>
+
+        <rect width="4" height="4" x="2" y="2" class="line-follow-line"/>
+        <!-- Columns -->
+        <use xlink:href="#centre-column" x="1.85" y="3.85"/>
+        <use xlink:href="#centre-column" x="3.85" y="1.85"/>
+        <use xlink:href="#centre-column" x="5.85" y="3.85"/>
+        <use xlink:href="#centre-column" x="3.85" y="5.85"/>
+
+        <!-- tokens -->
+        <!-- Zone 0 -->
+        <use
+                xlink:href="#random-tokens"
+                class="zone-3"
+                x="2" y="2"
+        />
+        <!-- Zone 1 -->
+        <use
+                xlink:href="#random-tokens"
+                class="zone-2"
+                x="2" y="2"
+                transform="rotate(90 4 4)"
+        />
+        <!-- Zone 2 -->
+        <use
+                xlink:href="#random-tokens"
+                class="zone-0"
+                x="2" y="2"
+                transform="rotate(180 4 4)"
+        />
+        <!-- Zone 3 -->
+        <use
+                xlink:href="#random-tokens"
+                class="zone-1"
+                x="2" y="2"
+                transform="rotate(270 4 4)"
+        />
+        <!-- arena wall -->
+        <rect width="8"
+              height="8"
+              x="0"
+              y="0"
+              class="arena-wall"/>
+    </g>
+</svg>
