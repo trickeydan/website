@@ -42,3 +42,10 @@ projects:
       type: Society
       github: sourcebots
       url: https://sourcebots.co.uk
+  - project:
+      name: SUCSS
+      slug: sucss
+      status: Ongoing
+      type: Society
+      github: sotoncyber
+      url: https://succss.org

@@ -12,7 +12,7 @@ I'm Dan, a first year Computer Science Student at the University of Southampton.
 
 Yep, I also:
 
-- Attend sessions and help out with SUCSS (Southampton University Cyber Security Society)
+- Attend sessions and am secretary of [SUCSS][sucss] (Southampton University Cyber Security Society)
 - I am a member of SUWS (Southampton University Wireless Society) and will be working towards getting my Amateur Radio Licence soon.
 - I work on my [projects](/projects).
 - Once in a blue moon, I write a [blog](/posts) post.
@@ -21,3 +21,4 @@ Yep, I also:
 
 [Questioneer]: https://questioneer.co.uk
 [SourceBots]: /projects/sourcebots
+[sucss]: /projects/sucss
