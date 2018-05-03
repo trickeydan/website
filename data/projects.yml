@@ -42,9 +42,9 @@ projects:
       github: sourcebots
       url: https://sourcebots.co.uk
   - project:
-      name: i3-yml
-      slug: i3-yml
-      hidden: true
-      status: Planned
-      type: Personal
-      github: trickeydan/i3-yml
+      name: SUCSS
+      slug: sucss
+      status: Ongoing
+      type: Society
+      github: sotoncyber
+      url: https://succss.org
