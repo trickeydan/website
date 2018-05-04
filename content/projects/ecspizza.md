@@ -20,7 +20,7 @@ ecs.pizza is split up over multiple repositories to separate out the components:
 - [ecspizza-fingerprint][ecspizza-fingerprint]
   - Custom Computer Vision algorithms
   - Written in Python with the OpenCV library
-  - Creates a finger from a picture of a pizza that can then be used to see if two pictures are of the same pizza
+  - Creates a fingerprint from a picture of a pizza that can then be used to see if two pictures are of the same pizza
   - Prevents *cheating*!
 - [ecspizza-flask][ecspizza-flask]
   - Web Client + API
