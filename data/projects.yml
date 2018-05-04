@@ -27,6 +27,7 @@ projects:
       name: ecs.pizza
       slug: ecspizza
       status: Completed
+      github: dysfunctionals/ecspizza
       type: Hackathon
   - project:
       name: Questioneer
