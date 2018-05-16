@@ -37,6 +37,13 @@ projects:
       url: https://questioneer.co.uk
       github: questioneerLTD
   - project:
+      name: Soton Analytica
+      slug: soton-analytica
+      status: Completed
+      github: dysfunctionals/soton-analytica
+      type: Hackathon
+      blog: true
+  - project:
       name: SourceBots
       slug: sourcebots
       status: Ongoing
