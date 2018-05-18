@@ -3,6 +3,8 @@ title: Soton Analytica
 date: 2018-05-07
 ---
 
+{{< project soton-analytica >}}
+
 It seems that yet again I have found myself wasting my time creating slightly insane projects at Hackathons and this one trumps the previous ones by a fair bit.
 
 The inspiration for this came from the [recent scandals][fb-scandal] about Facebook sharing user data with the policital firm Cambridge Analytica. This was then combined with some slightly crazy
