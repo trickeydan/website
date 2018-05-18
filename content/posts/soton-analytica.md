@@ -14,7 +14,7 @@ It is perhaps not beneficial to my degree that [Hack The South][hts] is held so 
 win things for creating slightly useless code.
 
 I think the only way that anybody reading this article will take this even somewhat seriously is if I start with the tech behind the project. I have previously worked on "massively multiplayer" project on Brumball.
-However, this time I seeked to build on the problems that we had during that project to create a much more reliable system that could cope with more users and hopefully have nicer code. This inevitably ment not
+However, this time I seeked to build on the problems that we had during that project to create a much more reliable system that could cope with more users and hopefully have nicer code. This inevitably meant not
 using Java for the server this time, that was a crazy idea before and I would worry about my sanity if I were to think it was a good idea to do that again. Java is nice for many applications and I particularly like
 it's ability to build abstraction over problems. It's just not for web. Hence we went with [Flask][flask].
 
