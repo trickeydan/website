@@ -12,6 +12,12 @@ projects:
       type: Hackathon
       github: trickeydan/bundle-server
   - project:
+      name: ResCalc
+      slug: rescalc
+      status: In Progress
+      type: Personal
+      github: trickeydan/rescalc
+  - project:
       name: Project Hermes
       slug: hermes
       status: Completed
