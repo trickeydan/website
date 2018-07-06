@@ -47,10 +47,14 @@ There is no easy guide to setting up a VM and I was surprised to find that stora
 
 {{< figure src="/img/posts/hypervisors/error.png" width="50%" caption="My disks were already in use.">}}
 
-Zetastack appears to be a fork of Proxmox, with many of the GUI elements feeling familiar to me. I think that it could be promising in the future, but requires more work before I would consider using it. I am excited to see a potential competitor to VMware and will be watching Zetastack with a close eye.
+~~Zetastack appears to be a fork of Proxmox, with many of the GUI elements feeling familiar to me.~~ See update below. I think that it could be promising in the future, but requires more work before I would consider using it. I am excited to see a potential competitor to VMware and will be watching Zetastack with a close eye.
 
 ## Conclusion
 
 After testing Zetastack, and failing to install ESXi, I have decided to use Proxmox for my hypervisor. It is fast, well supported and based off known-good technologies. It has some open source elements, which I always see as an advantage when choosing software.
 
 I hope that I will find time to write about how I setup the network in my new house, which will be occuring over the next weeks. At the very least, I will post some photographs of my "HomeLab", as I have claimed the under-stairs cupboard for networking and computers only.
+
+## Update: I was slightly wrong
+
+When I initially posted this, I wrongly assumed that Zetastack was a fork of Proxmox. I have since been corrected by [Tim Stallard](https://timstallard.me.uk), who upon his investigations, found that it is a completely independant PHP wrapper around `libvirt`. It is not open source, the code is actually obfuscated! My other comments still stand though, but I am disappointed about the non-openness of it.
