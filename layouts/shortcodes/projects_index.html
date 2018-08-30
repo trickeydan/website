@@ -1,11 +1,23 @@
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Category</th>
+  </thead>
 {{ range .Site.Data.projects.projects }}
   {{ with .project }}
     {{ if not .hidden }}
       {{ if .blog }}
-        <p><a href="/posts/{{ .slug }}">{{ .name }}</a></p>
+        <tr>
+          <td><a href="/posts/{{ .slug }}">{{ .name }}</a></td>
+          <td>{{ .type }}</td>
+        </tr>
       {{ else }}
-        <p><a href="/projects/{{ .slug }}">{{ .name }}</a></p>
+        <tr>
+          <td><a href="/projects/{{ .slug }}">{{ .name }}</a></td>
+          <td>{{ .type }}</td>
+        </tr>
       {{ end }}
     {{ end }}
   {{ end }}
 {{ end }}
+</table>
