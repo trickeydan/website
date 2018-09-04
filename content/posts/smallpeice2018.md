@@ -80,9 +80,6 @@ Not only is this a smaller, neater solution, but it also removes the nasty `Keyb
 
 All code snippets on this page are from [sourcebots/robot-api][robot-api], which is Open Source under the MIT Licence and can be found on GitHub.
 
-## Arduino 
-
-
 [arm]: https://www.arm.com/
 [sb2018]: /posts/sb2018
 [smallpeice]: https://www.smallpeicetrust.org.uk/
