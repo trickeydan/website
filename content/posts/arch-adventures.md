@@ -21,9 +21,13 @@ It was terrible. I don't like GNOME.
 
 ## Intel Core i3
 
+Whilst suffering the terrible RAM shortages that one tends to whilst using GNOME, I was persuaded by one of my friends who uses [i3wm][i3wm] to give it a try. I installed it pretty easily on my Ubuntu install using apt and was using it within minutes. The sheer lack of bloat is likely to be the reason that I still use it to this very day. I guess that, combined with the ability to choose exactly what you wanted, from different colours, to different bars, to different menu launchers. I personally would highly recommend [rofi][rofi] as a menu launcher, the fuzzy search functionality is excellent. 
+
 ## Portable Server
 
-## Hiding under the Arch
+## Ansible + Arch
 
 [minty]: https://linuxmint.com/
 [ubuntu]: https://www.ubuntu.com/
+[i3wm]: https://i3wm.org/
+[rofi]: https://github.com/DaveDavenport/rofi
