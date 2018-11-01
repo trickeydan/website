@@ -1,6 +1,6 @@
 ---
 title: Adventures under the Arch
-date: 2018-09-04
+date: 2018-11-01
 ---
 
 ## The Dark Ages
@@ -15,17 +15,31 @@ This setup was riddled with problems, mainly due to Cinnamon and Unity conflicti
 
 ## Garden GNOMEs
 
-Canonical suffered a divine intervention, and dropped Unity. I decided to give GNOME a try.
+Canonical suffered a divine intervention, and dropped Unity. I decided to give GNOME 3 a go.
 
 It was terrible. I don't like GNOME.
 
-## Intel Core i3
+## ~~Intel Core~~ i3
 
-Whilst suffering the terrible RAM shortages that one tends to whilst using GNOME, I was persuaded by one of my friends who uses [i3wm][i3wm] to give it a try. I installed it pretty easily on my Ubuntu install using apt and was using it within minutes. The sheer lack of bloat is likely to be the reason that I still use it to this very day. I guess that, combined with the ability to choose exactly what you wanted, from different colours, to different bars, to different menu launchers. I personally would highly recommend [rofi][rofi] as a menu launcher, the fuzzy search functionality is excellent. 
+Whilst suffering the terrible RAM shortages that one tends to whilst using GNOME, I was persuaded by one of my friends who uses [i3wm][i3wm] to give it a try. I installed it pretty easily on my Ubuntu install using `apt` and was using it within minutes. The sheer lack of bloat is likely to be the reason that I still use it to this very day. I guess that, combined with the ability to choose exactly what you wanted, from different colours, to different bars, to different menu launchers. I personally would highly recommend [rofi][rofi] as a menu launcher, the fuzzy search functionality is excellent. 
+
+There are a couple of tiny things that bug me about i3wm, such as the absolutely featureless default bar. However, I do significantly prefer this to the bloat that is generally referred to as Polybar.
 
 ## Portable Server
 
+As one would expect with an operating system that is aimed at consumers, Ubuntu comes with many default tools that I would argue are unnecessary, such as GNOME, systemd and nano[^1]. I thus decided to find something more lightweight and for reasons that make no sense to me anymore, and against the recommendation of my peers, I decided to install Ubuntu Server on my laptop.
+
+It was beautiful. Lightweight. Fast.
+
+Then networking broke. Thanks `netplan`. Even Ansible couldn't save me.
+
+In conclusion, this was simulaneously a good and absolutely awful .
+
 ## Ansible + Arch
+
+![](https://imgs.xkcd.com/comics/cautionary.png)
+
+[^1]: I use `vim` :P
 
 [minty]: https://linuxmint.com/
 [ubuntu]: https://www.ubuntu.com/
