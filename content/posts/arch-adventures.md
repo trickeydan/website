@@ -36,15 +36,25 @@ It was beautiful. Lightweight. Fast.
 
 Then networking broke. Thanks `netplan`. Even Ansible couldn't save me.
 
-In conclusion, this was simulaneously a good and absolutely awful .
+In conclusion, this was simulaneously a good and absolutely awful decision. Good because I learnt how to build a desktop environment from X packages, terrible because nothing worked.
 
 ## Ansible + Arch
 
-{{< figure src="/img/posts/arch-adventures/xkcd.png" title="Cautionary" attr="XKCD 456" attrlink="https://xkcd.com/456/" >}}
+Some time ago the existence of [Ansible][ansible] was mentioned to me, and foolishly I dismissed it as being yet another overtly enterprise configuration tool, much like [Puppet][puppet]. I was only partially wrong. One of my friends used Puppet[^2] to manage the configuration of packages on his Antergos install. I had always considered this to be a somewhat bloated setup, as the Puppet agent is required on the system.
+
+As I was looking for a minimal operating system, [Arch Linux][arch] is an obvious choice, being slightly infamous for being difficult to install, difficult to configure and unstable. I won't deny these claims. However, I do wish to point out how it is the most flexible operating system that I have made use of ever. The documentation is excellent, given that you have the time to read many pages on the wiki. I have encountered some stability issues, mainly due to the rolling release nature of the operating system inevitably installing buggy packages. Yet, I am happy to sacrifice this, for the disadvantages are outweighed.
+
+Due to the virtually limitless ways that one can configure Arch and my slight fear of having no functional laptop, I also wrote an arch install script. This essentially means that, along with my Ansible playbooks and encryption keys, my entire config can be procedurally recreated. I really like this, as it means that when I next need to reinstall, or change computer, I can install it exactly as I like in less than an hour, all whilst doing something else.
+
+{{< figure src="/img/posts/arch-adventures/xkcd.png" attr="XKCD 456" attrlink="https://xkcd.com/456/" >}}
 
 [^1]: I use `vim` :P
+[^2]: At the time he did. I showed him Ansible and he migrated pretty quickly.
 
 [minty]: https://linuxmint.com/
 [ubuntu]: https://www.ubuntu.com/
 [i3wm]: https://i3wm.org/
 [rofi]: https://github.com/DaveDavenport/rofi
+[ansible]: https://www.ansible.com/
+[puppet]: https://puppet.com/
+[arch]: https://www.archlinux.org/
