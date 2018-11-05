@@ -1,11 +1,14 @@
 ---
 title: Adventures under the Arch
-date: 2018-11-01
+date: 2018-11-05
 ---
 
 ## The Dark Ages
 
 I distinctly remember when the first major update for Windows 10 was released. I was somewhat excited, all of the bugginess and things that were initially wrong were going to be fixed! I was quite wrong. By the end of that day, I had switched to Linux. Admittedly, the reason that my disk was corrupted by the Windows update was partially my fault; I had a setup that would have been considered somewhat unusual for the usual Windows user. Yet, I still firmly believe that Microsoft should actually tell their support staff that reinstalling an encrypted system does tend to lose data.
+
+
+{{< figure src="/img/posts/arch-adventures/windows.png" attr="Matthew Inman" attrlink="http://theoatmeal.com/blog/fix_computer" >}}
 
 ## Cinnamon Challenge
 
@@ -37,7 +40,7 @@ In conclusion, this was simulaneously a good and absolutely awful .
 
 ## Ansible + Arch
 
-![](https://imgs.xkcd.com/comics/cautionary.png)
+{{< figure src="/img/posts/arch-adventures/xkcd.png" title="Cautionary" attr="XKCD 456" attrlink="https://xkcd.com/456/" >}}
 
 [^1]: I use `vim` :P
 
