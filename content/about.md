@@ -6,7 +6,7 @@ title: "About Me"
 
 ## Who am I?
 
-I'm Dan, a first year Computer Science Student at the University of Southampton. I am also a Co-Founder of [Questioneer][Questioneer], a volunteer at [SourceBots][SourceBots], writer of crazy Hackathon projects and designer of weird computer networks. Additionally, in my free time, I write and contribute to Open Source software projects, help lead a group of Beaver Scouts and make CTF (Capture the Flag) exercises.
+I'm Dan, a second year Computer Science Student at the University of Southampton. I am also a Co-Founder of [Questioneer][Questioneer], a volunteer at [SourceBots][SourceBots], writer of crazy Hackathon projects and designer of weird computer networks. Additionally, in my free time, I write and contribute to Open Source software projects, help lead a group of Beaver Scouts and make CTF (Capture the Flag) exercises.
 
 ## That's a lot of stuff...
 
