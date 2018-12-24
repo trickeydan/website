@@ -38,11 +38,9 @@ We got tweeted!
 
 [Tweeted By MLH](https://twitter.com/MLHacks/status/932231486836789248)
 
-{{< tweet 932231486836789248 >}}
+![Tweeted By MLH](https://i.imgur.com/BeB76q4.png)
 
-[Tweeted By Capgemini](https://twitter.com/CapgeminiUKppl/status/932230984111706112)
-
-{{< tweet 932230984111706112 >}}
+We were also tweeted by Capgemini, but that tweet has been since deleted (Dec 2018) and I have been unable to find a copy of it.
 
 ## Photos
 
