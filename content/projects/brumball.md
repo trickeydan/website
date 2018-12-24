@@ -10,7 +10,7 @@ Brumball is a 6 player massively multiplayer pong game that I developed at my fi
 
 ## Why?
 
-Brumball was developed during [Brumhack 7.0](https://www.brumhack.co.uk/), a 24hr hackathon that was held in November 2017. It was developed by the Dysfunctional Programmers, a team of computer science students from University of Southampton.
+Brumball was developed during Brumhack 7.0, a 24hr hackathon that was held in November 2017. It was developed by the Dysfunctional Programmers, a team of computer science students from University of Southampton.
 
 ## How can I run Brumball?
 As Brumball was developed for a hackathon, it was very much intended to be used as a demo in a short presentation. Thus, it does not have a nice menu or start automatically. In fact, you need to press enter on the display in order to release balls. This can be changed by modifying game.js in /display.
