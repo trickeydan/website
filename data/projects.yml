@@ -1,5 +1,12 @@
 projects:
   - project:
+      name: j5
+      slug: j5
+      status: In Progress
+      type: Open Source Project
+      github: j5api/j5
+      url: https://j5.readthedocs.org
+  - project:
       name: Brumball
       slug: brumball
       status: Completed
