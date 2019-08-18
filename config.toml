@@ -23,10 +23,6 @@ title = "Dan Trickey"
     weight = 2
     url = "/about/"
 [[menu.main]]
-    name = "Projects"
-    weight = 3
-    url = "/projects/"
-[[menu.main]]
     name = "Blog"
     weight = 4
     url  = "/posts/"
