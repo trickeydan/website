@@ -6,19 +6,8 @@ title: "About Me"
 
 ## Who am I?
 
-I'm Dan, a second year Computer Science Student at the University of Southampton. I am also a Co-Founder of [Questioneer][Questioneer], a volunteer at [SourceBots][SourceBots], writer of crazy Hackathon projects and designer of weird computer networks. Additionally, in my free time, I write and contribute to Open Source software projects, help lead a group of Beaver Scouts and make CTF (Capture the Flag) exercises.
+I'm Dan, a third year Computer Science student at the University of Southampton. I am also a Co-Founder of [Questioneer][Questioneer], advocate of typed Python and Haskell.
 
-## That's a lot of stuff...
-
-Yep, I also:
-
-- Attend sessions and am secretary of [SUCSS][sucss] (Southampton University Cyber Security Society)
-- I am a member of SUWS (Southampton University Wireless Society) and am working towards getting my Amateur Radio Licence.
-- I work on my [projects](/projects).
-- Once in a blue moon, I write a [blog](/posts) post.
-- Somehow find time to cook food and relax occasionally.
-
+I can generally be found volunteering my time towards various [Robotics based activities](https://studentrobotics.org).
 
 [Questioneer]: https://questioneer.co.uk
-[SourceBots]: /projects/sourcebots
-[sucss]: /projects/sucss
