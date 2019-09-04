@@ -29,7 +29,7 @@ However, this experimental design started the chain of development towards the m
 
 Despite the similar name, [robot-api2](https://github.com/prophile/robot-api2) is in fact a partial kit stack all by itself. No hardware implementation though, but innovative enough to gain a mention here.
 
-The major leap that [Alistair](https://alynn.co.uk) made was bring the control of the robot back into the usercode process, but still having multiple _backends_, thus allowing us to control different things (hardware, simulator, etc) from the same API. Instead of having loosely defined JSON schemas, going over flakey unix sockets, we not have type-checked interfaces ensuring that the data is what we expected it to be. Alas is still sort of dynamically typed, but that's yet another thing for a future blog post.
+The major leap that [Alistair](https://alynn.co.uk) made was bring the control of the robot back into the usercode process, but still having multiple _backends_, thus allowing us to control different things (hardware, simulator, etc) from the same API. Instead of having loosely defined JSON schemas, going over flakey unix sockets, we now have type-checked interfaces ensuring that the data is what we expected it to be. Alas, it is still sort of dynamically typed, but that's yet another thing for a future blog post.
 
 I spent some time [working on](https://github.com/trickeydan/robot-api2/) a fork of `robot-api2` to implement things further, but I hit problems which this solution did not solve.
 
@@ -51,7 +51,7 @@ With _j5_, a buzzer on a RoboCon board would have exactly the same API as one on
 
 If your hardware is already supported, or maintained by someone else, it is easy to create the most basic API. 20 lines should be more than enough for a MVP of the SR kit. Yet in reality, it will be much more complex. Every competition will implement some of their own details, from the OS through to game specific details like marker sizes.
 
-The first implementation of a *j5* based API, [sbot](https://github.com/sourcebots/sbot) was successfully deployed at [Smallpeice 2019](/posts/smallpeice2019), which barely a glitch. I plan to write up on exactly what we did encounter, and how we were able to deploy it with so few issues.
+The first implementation of a *j5* based API, [sbot](https://github.com/sourcebots/sbot) was successfully deployed at [Smallpeice 2019](/posts/smallpeice2019), with barely a glitch. I plan to write up on exactly what we did encounter, and how we were able to deploy it with so few issues.
 
 *j5* has had a few focal points during it's development, but the one that I've been most keen on is User Experience. From useful error messages, through to a short beep when your robot is ready to start, it makes all of the difference when kit is used in a high-stress environment like Smallpeice. Code quality has been at the top of the list too, and I had a great few hours finding the strictest, yet still practical, settings for our linting and testing tools.
 
