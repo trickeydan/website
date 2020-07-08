@@ -46,9 +46,10 @@ copyright = "© {year} D G Trickey"
 
 # Controls the navigation
 [[menu.main]]
-  identifier = "/"
-  name = "/"
-  title = "/"
+  weight = 9999
+  identifier = "/home"
+  name = "/home"
+  title = "/home"
   url = "/"
 
 [[menu.main]]
