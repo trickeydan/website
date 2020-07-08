@@ -1,32 +1,61 @@
-theme = "coder" # set the theme
+theme = "codex" 
+
 title = "Dan Trickey"
+languageCode = "en-gb"
+baseURL = "https://trickey.io/"
+copyright = "© {year}"
 
-[params] # theme parameters
-    author = "Dan Trickey" # author's name
-    info = "I write code." # author's job title or info
-    description = "Dan's personal website" # site description
-    keywords = "blog,developer,personal" # site keywords
+# Add your Disqus shortname here.
+# disqusShortname = ""
 
-# Social links
-[[params.social]]
-    name = "Github"
-    weight = 1
-    url = "https://github.com/trickeydan/"
-[[params.social]]
-    name = "LinkedIn"
-    weight = 2
-    url = "https://www.linkedin.com/in/trickeydan/"
+# Add your Google Analytics identifier: UA-XXXXXXXX-X
+# googleAnalytics = "" 
 
-# Menu links
+# Optional params
+[params]
+  # Follow the Hugo date/time format reference here: 
+  # https://gohugo.io/functions/format/#gos-layout-string
+  dateFormat = "2006-01-02"
+
+  # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
+  # twitter = "https://twitter.com/<your handle>"
+  github = "https://github.com/trickeydan"
+  # email = "mailto:<your email>"
+  facebook = "https://facebook.com/trickeydan"
+  gitlab = "https://gitlab.com/trickeydan"
+  instagram = "https://instagram.com/trickeydan"
+  linkedin = "https://www.linkedin.com/in/trickeydan/"
+  # youtube = "https://www.youtube.com/channel/<your channel>"
+  
+  # Titles for your icons (shown as tooltips), and also their display order.
+  # Currently, these icons are supported: 
+  #   "Twitter", "GitHub", "Email", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
+  iconTitles = ["GitHub", "Facebook", "GitLab", "Instagram", "LinkedIn"]
+
+# This disables Hugo's default syntax highlighting in favor
+# of prismjs. If you wish to use Hugo's default syntax highlighting
+# over prismjs, remove this. You will also need to remove the prismjs
+# vendor script in layouts/blog/single.html.
+[markup]
+  [markup.highlight]
+    codeFences = false
+    
+  # Set to false to disallow raw HTML in markdown files
+  [markup.goldmark.renderer]
+      unsafe = true
+
+# Controls the navigation
 [[menu.main]]
-    name = "About Me"
-    weight = 2
-    url = "/about/"
+  identifier = "about"
+  name = "about"
+  title = "About"
+  url = "/"
+
 [[menu.main]]
-    name = "Blog"
-    weight = 4
-    url  = "/posts/"
-[[menu.main]]
-    name = "Contact"
-    weight = 5
-    url  = "/contact/"
+  identifier = "posts"
+  name = "posts"
+  title = "Posts"
+  url = "/posts"
+
+
+
