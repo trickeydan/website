@@ -3,7 +3,7 @@ theme = "codex"
 title = "Dan Trickey"
 languageCode = "en-gb"
 baseURL = "https://trickey.io/"
-copyright = "© {year}"
+copyright = "© {year} D G Trickey"
 
 # Add your Disqus shortname here.
 # disqusShortname = ""
@@ -46,16 +46,22 @@ copyright = "© {year}"
 
 # Controls the navigation
 [[menu.main]]
-  identifier = "about"
-  name = "about"
-  title = "About"
+  identifier = "/"
+  name = "/"
+  title = "/"
   url = "/"
 
 [[menu.main]]
-  identifier = "posts"
-  name = "posts"
-  title = "Posts"
-  url = "/posts"
+  identifier = "/blog"
+  name = "/blog"
+  title = "/blog"
+  url = "/blog"
+
+[[menu.main]]
+  identifier = "/nicestuff"
+  name = "/nicestuff"
+  title = "/nicestuff"
+  url = "/nicestuff"
 
 
 
