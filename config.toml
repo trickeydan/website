@@ -46,17 +46,26 @@ copyright = "© {year} D G Trickey"
 
 # Controls the navigation
 [[menu.main]]
-  weight = 9999
+  weight = 1
   identifier = "Dan Trickey"
   name = "Dan Trickey"
   title = "Dan Trickey"
   url = "/"
 
 [[menu.main]]
+  weight = 2
   identifier = "Blog"
   name = "Blog"
   title = "Blog"
   url = "/blog"
+
+[[menu.main]]
+  weight = 3
+  identifier = "Projects"
+  name = "Projects"
+  title = "Projects"
+  url = "/projects"
+
 
 [[menu.main]]
   identifier = "Nice Stuff"

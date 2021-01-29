@@ -33,9 +33,3 @@ This Python Enhancement Proposal (PEP) introduces Type Hints to Python, which al
 We challenge teams of 16 to 18 year-olds to design, build and develop autonomous robots to compete in our annual competition. After announcing the year's game, we give teams six months to engineer their creations. We mentor teams throughout this time, as well as supply them with a kit which provides a framework they can build their robot around. 
 
 I mostly work on the kit these days, and currently sit on the "Kit Committee" and lead the "Brain Team". Although I have been involved in event management in the past, which was excellent fun and quite satisfying to see all of the hard work pay off.
-
-
-## [Tacheo](https://tacheo.com)
-
-An educational startup company I founded with my best friend. We raised over £30,000 of funding for the venture, including a [live pitch on stage](https://www.youtube.com/watch?v=DZCrgUA-fpA).
-
