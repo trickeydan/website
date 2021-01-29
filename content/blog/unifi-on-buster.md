@@ -1,6 +1,8 @@
 ---
 title: Unifi Controller on Debian Buster
 date: 2020-09-27
+tags:
+  - networking
 ---
 
 Ubiquiti make a line of networking equipment, popular among homelab and home networking people, called [UniFi][unifi]. I've had a couple of their UAP-AC-Pro access points for a about 2 years now, and they're absolutely excellent. Probably overkill for my three bedroom house, but I've yet to come across anything to beat them. You can find them at decent prices on eBay too, if you're willing to wait around for a while and buy them without the PoE injectors (mine cost about £45 each, brand new, vs. £148 RRP on Amazon at the time of writing).

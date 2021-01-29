@@ -1,6 +1,9 @@
 ---
 title: Smallpeice 2019
 date: 2019-08-18
+tags:
+  - robotics
+  - event
 ---
 
 {{< figure src="/img/posts/smallpeice2019/arena.jpg" width="50%" caption="Arena for Smallpeice 2019">}}

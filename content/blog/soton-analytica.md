@@ -1,6 +1,9 @@
 ---
 title: Soton Analytica
 date: 2018-05-07
+tags:
+  - software
+  - hackathon
 ---
 
 It seems that yet again I have found myself wasting my time creating slightly insane projects at Hackathons and this one trumps the previous ones by a fair bit.

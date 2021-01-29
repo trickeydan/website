@@ -1,6 +1,9 @@
 ---
 title: "Dodgy Netgear Switches"
 date: 2021-01-01
+tags:
+  - networking
+  - ipv6
 ---
 
 Finding a decent network switch these days is something that is a little more difficult than it should be in today's world. There tends to be a massive void between unmanaged super cheap switches, and twenty grand enterprise grade switches with 18,000 features that I'll never use.

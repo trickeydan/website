@@ -1,6 +1,10 @@
 ---
 title: Building friendly robotics software
 date: 2019-08-23
+tags:
+  - robotics
+  - python
+  - software
 ---
 
 Python 2 is being deprecated at the end of this year and we're still teaching it for our robotics competitions? I explain my experiences with various interfaces to control both our robots, and others, and explain why I developed [j5](https://github.com/j5api/j5).
