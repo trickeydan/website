@@ -18,9 +18,9 @@ copyright = "© {year} D G Trickey"
   dateFormat = "2006-01-02"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
-  # twitter = "https://twitter.com/<your handle>"
+  twitter = "https://twitter.com/trickeydan"
   github = "https://github.com/trickeydan"
-  # email = "mailto:<your email>"
+  email = "mailto:website-icon-contact@trickey.io"
   facebook = "https://facebook.com/trickeydan"
   gitlab = "https://gitlab.com/trickeydan"
   instagram = "https://instagram.com/trickeydan"
@@ -47,21 +47,21 @@ copyright = "© {year} D G Trickey"
 # Controls the navigation
 [[menu.main]]
   weight = 9999
-  identifier = "/home"
-  name = "/home"
-  title = "/home"
+  identifier = "Dan Trickey"
+  name = "Dan Trickey"
+  title = "Dan Trickey"
   url = "/"
 
 [[menu.main]]
-  identifier = "/blog"
-  name = "/blog"
-  title = "/blog"
+  identifier = "Blog"
+  name = "Blog"
+  title = "Blog"
   url = "/blog"
 
 [[menu.main]]
-  identifier = "/nicestuff"
-  name = "/nicestuff"
-  title = "/nicestuff"
+  identifier = "Nice Stuff"
+  name = "Nice Stuff"
+  title = "Nice Stuff"
   url = "/nicestuff"
 
 
