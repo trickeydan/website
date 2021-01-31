@@ -1,0 +1,32 @@
+---
+draft: yes
+---
+
+- Setup matrix server and run ansible
+- Add DNS:
+    - AAAA matrix.trickey.uk
+    - CNAME matrix.trickey.io -> http-sov.trickey.uk
+- Add "deb http://deb.debian.org/debian buster-backports main" to /etc/apt/sources.list
+- sudo apt update
+- sudo apt install -t buster-backports matrix-synapse 
+    - Enter trickey.io as domain when prompted
+- Add .well-known/matrix/server to main web server
+- Firewall
+    - Port forward 8448 to tayga address for sniproxy
+    - 
+- SNIProxy
+    - Add `^matrix\\.trickey\\.io\\.?$ matrix.trickey.uk` to HTTP/S Table
+    - Add 8448 listen block
+    - Add 8448 table
+    - Add `^matrix\\.trickey\\.io\\.?$ matrix.trickey.uk` to 8448 table
+- Edit /etc/matrix/homeserver.yaml (Check path)
+  - Change no_tls to true
+  - Change x-forwarded to true
+- nginx
+  - install
+  - add config from https://github.com/matrix-org/synapse/blob/master/docs/reverse_proxy.md
+- apt install certbot
+  - generate certs
+  - add certs to nginx config
+- Add redirect on default config?
+- Element.io
